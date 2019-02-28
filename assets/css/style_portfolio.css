@@ -1,0 +1,58 @@
+
+.images {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+
+
+}
+
+p {
+    color: #eeeeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#p1 {
+    position: absolute;
+    top: 435px;
+    background-color: #4aaaa5;
+    padding: 20px 101.5px;
+    
+   
+}
+
+#p2 {
+    position: absolute;
+    top: 435px;
+    background-color: #4aaaa5;
+    padding:  20px 76px;
+}
+
+#p3 {
+    position: absolute;
+    top: 730px;
+    background-color: #4aaaa5;
+    padding:  20px 70px;
+}
+
+#p4 {
+    position: absolute;
+    top: 730px;
+    background-color: #4aaaa5;
+    padding:  20px 121px;
+}
+
+#p5 {
+    position: absolute;
+    top: 1025px;
+    background-color: #4aaaa5;
+    padding:  20px 67px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
