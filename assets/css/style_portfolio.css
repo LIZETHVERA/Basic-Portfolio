@@ -10,49 +10,105 @@
 p {
     color: #eeeeee;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%;
+    height: auto; */
 }
 
 
 #p1 {
     position: absolute;
-    top: 435px;
+    top: 455px;
     background-color: #4aaaa5;
     padding: 20px 101.5px;
-    
-   
+    color: #eeeeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 
 #p2 {
     position: absolute;
-    top: 435px;
+    top: 455px;
     background-color: #4aaaa5;
     padding:  20px 76px;
+    color: #eeeeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #p3 {
     position: absolute;
-    top: 730px;
+    top: 745px;
     background-color: #4aaaa5;
     padding:  20px 70px;
+    color: #eeeeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #p4 {
     position: absolute;
-    top: 730px;
+    top: 750px;
     background-color: #4aaaa5;
     padding:  20px 121px;
+    color: #eeeeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #p5 {
     position: absolute;
-    top: 1025px;
+    top: 1045px;
     background-color: #4aaaa5;
     padding:  20px 67px;
+    color: #eeeeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .responsive {
     max-width: 100%;
     height: auto;
 }
+
+@media screen and (max-width: 1090px){
+#p1 {
+    position: absolute;
+    top: 70%;
+    bottom: 70%;
+    padding: 6px 40px 27px 70px;
+    /* max-width: 100%; */
+    height: auto; 
+}
+ #p2 {
+    position: absolute;
+    top: 70%;
+    bottom: 70%;
+    padding: 6px 40px 27px 29px;
+    /* max-width: 100%; */
+    height: auto; 
+}
+#p3 {
+    position: absolute;
+    top: 120%;
+    bottom: 120%;
+    padding: 6px 40px 27px 29px;
+    /* max-width: 100%; */
+    height: auto;
+}
+#p4 {
+    position: absolute;
+    top: 120%;
+    bottom: 120%;
+    padding: 6px 40px 27px 132px;
+    /* max-width: 100%; */
+    height: auto;
+}
+
+#p5 {
+    position: absolute;
+    top: 150%;
+    bottom: 150%;
+    padding: 6px 40px 27px 29px;
+    /* max-width: 100%; */
+    height: auto;
+}
+
+
+}
+
